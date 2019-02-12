@@ -5,6 +5,7 @@
   "author": "odan <odan3240@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@zeit/next-typescript": "^1.1.1",
     "next": "^8.0.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1"
@@ -13,5 +14,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.2",
+    "@types/react-dom": "^16.8.0"
   }
 }
