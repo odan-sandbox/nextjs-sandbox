@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "useJSXTextNode": true,
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint", "react"],
+  "extends": ["plugin:@typescript-eslint/recommended"],
+  "rules": {
+    "react/jsx-uses-vars": 1
+  }
+}
